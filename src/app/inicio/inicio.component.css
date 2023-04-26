@@ -1,0 +1,61 @@
+main{
+    min-height: 500px;
+}
+
+#section-banner{
+    min-height: 400px;
+}
+
+#section-banner img{
+    height: 500px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+    
+}
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: auto;
+  }
+  
+  mat-grid-list{
+    /*cria um espaçamento de cima em baixo*/
+    margin: 10px 0px;  
+  }
+
+  mat-grid-title{
+    /*arrendondar a borda e um espaçamento de 2 px*/
+    padding: 2px;
+    border-radius: 30px;
+  }
+
+  mat-card-header{
+    /* ira centralizar o título*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  mat-card-actions{
+    /*ira ajustar os botões*/
+    display: flex;
+    justify-content: space-around;
+  }
+  mat-card-actions p{
+    /*ira por cor e tamanho no valor do jogo*/
+    color: red;
+    font-size: 30px;
+  }
+  mat-card img{
+    /*ira ajustar o tamanho da imagem*/
+    height: 300px;
+    width: 300px;
+  }

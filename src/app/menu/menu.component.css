@@ -1,0 +1,15 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+img{
+  height: 65px;
+} 
+
+span{
+  padding: 10px;
+}
+a{
+  /*ira tira o sublinhado do nome e deixa o nome branco*/
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,8 @@
+footer{
+    /* o rodapé ira com fundo preto, ira fica centralizado com altura de 100px e 30px de espaçmento de cima para baixo*/
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+}
